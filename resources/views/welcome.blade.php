@@ -137,6 +137,7 @@
 
         </div>
     </body>
+
     <script>
         const lines = document.querySelectorAll('.mariane-animated-line');
         lines.forEach(function (line) {
