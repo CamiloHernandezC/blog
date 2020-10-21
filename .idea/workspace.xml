@@ -5,7 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98652d9a-1f52-496b-8d0f-77e2c76a5d03" name="Default Changelist" comment="connection test git-IDE" />
+    <list default="true" id="98652d9a-1f52-496b-8d0f-77e2c76a5d03" name="Default Changelist" comment="connection test git-IDE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +163,9 @@
       <workItem from="1603070321002" duration="2739000" />
       <workItem from="1603139313062" duration="2851000" />
       <workItem from="1603142646609" duration="1334000" />
+      <workItem from="1603144164382" duration="1783000" />
+      <workItem from="1603210825239" duration="6350000" />
+      <workItem from="1603230896556" duration="5450000" />
     </task>
     <task id="LOCAL-00001" summary="Project Creation">
       <created>1603142874356</created>
@@ -182,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603143802962</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project Creation">
+      <created>1603144230372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603144230372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,21 +211,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Creation" />
     <MESSAGE value="connection test git-IDE" />
-    <option name="LAST_COMMIT_MESSAGE" value="connection test git-IDE" />
+    <MESSAGE value="Project Creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Creation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="165" key="#Notifications" timestamp="1603143881701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="392" y="165" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1603143881701" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1603143988377">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1603237183952">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1603143988377" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1603237183952" />
     <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1603140921046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -229,10 +243,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="430" y="61" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603143653611" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603143869204">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1603144252281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603143869204" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603144252281" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603070617649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
