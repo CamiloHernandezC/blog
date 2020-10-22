@@ -110,7 +110,7 @@
         </div>
     </div>
 </div>
-<div class="full-height">
+<div style="min-height: 100vh">
     <img id="about-img" src="{{asset('img/profile.jpg') }}" class="floating-card d-block circle profile-image ml-auto mr-auto" alt="profile image">
     <div id="about-card" class="floating-card w-lg-50 w-75 pb-4 px-4 w-lg-50 mx-auto mb-4 br-20">
         <svg class="svg-name d-block m-auto" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 535.54 140.488">
@@ -179,6 +179,9 @@
     </div>
 </div>
 
+<footer class="footer text-right pr-4">
+    Desarrollado con mucho <img src="{{asset('img/heart.png')}}" width="20px"> por mi propio novio
+</footer>
 <!--
 <div id="meet">
 
