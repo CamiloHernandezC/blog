@@ -14,8 +14,6 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-
     <!-- Styles -->
     <style>
         #about-img{
@@ -41,6 +39,7 @@
         .content {
             text-align: center;
         }
+
     </style>
 </head>
 <body>
@@ -107,6 +106,17 @@
                     <line class="melissa-animate" id="i-dot-path" x1="311.615" y1="46.364" x2="323.919" y2="19.493" style="fill: none;stroke: #1d1d1b;stroke-miterlimit: 10;stroke-width: 11px"/>
                 </g>
             </svg>
+            <ul id="welcome-links" class="nav justify-content-center" style="opacity: 0; transition: opacity 1s">
+                <li class="nav-item hl-li">
+                    <a class="nav-link active" href="#">Viajes</a>
+                </li>
+                <li class="nav-item hl-li">
+                    <a class="nav-link" href="#">Maquillaje</a>
+                </li>
+                <li class="nav-item hl-li">
+                    <a class="nav-link" href="#">Salud</a>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
@@ -180,7 +190,7 @@
 </div>
 
 <footer class="footer text-right pr-4">
-    Desarrollado con mucho <img src="{{asset('img/heart.png')}}" width="20px"> por mi propio novio
+    Desarrollado por mi ingeniero con mucho <img src="{{asset('img/heart.png')}}" width="20px">
 </footer>
 <!--
 <div id="meet">
@@ -188,36 +198,17 @@
 </div>
 -->
 <!--jQuery, Popper.js, and Bootstrap JS All of them required by bootstrap-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
 </body>
 
-<script>
-    const lines = document.querySelectorAll('.melissa-animate');
-    lines.forEach(function (line) {
-        const offset = line.getTotalLength();
-        line.setAttribute('stroke-dashoffset', offset);
-        line.setAttribute('stroke-dasharray', offset);
-    });
-    //                   [m1   m2   m3   m4   m5   e1   e2   l    i    ss   a,   i(dot)];
-    let letterDuration = [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.3, 0.27, 0.6, 0.4, 0.3];
-    let letterDelay =    [0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0.3];
-    marianeTl = gsap.timeline({repeat: 0});
-    lines.forEach(function (line, idx) {
-        marianeTl
-            .set(line, {
-                attr: {'opacity': 1}
-            })
-            .to(line, {
-                duration: letterDuration[idx],
-                attr: {'stroke-dashoffset': 0},
-                ease: 'none'
-            }, ">+" + letterDelay[idx]);
-    });
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="{{asset('js/handwrite_animation.js')}}" type="text/javascript"></script>
+<script src="{{asset('js/nav_animation.js')}}" type="text/javascript"></script>
 
-</script>
+
 <script src='https://meet.jit.si/external_api.js'></script>
 <script>
     const domain = 'meet.jit.si';
