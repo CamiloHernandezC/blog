@@ -16,20 +16,11 @@
 
     <!-- Styles -->
     <style>
-        #about-img{
-            margin-bottom: -32px;
-        }
-        #about-card{
-            padding-top: 64px;
-        }
         #svg-title {
             width: 50vw;
         }
         .svg-name{
             width: 10rem;
-        }
-        .full-height {
-            height: 100vh;
         }
         .flex-center {
             align-items: center;
@@ -121,8 +112,8 @@
     </div>
 </div>
 <div style="min-height: 100vh">
-    <img id="about-img" src="{{asset('img/profile.jpg') }}" class="floating-card d-block circle profile-image ml-auto mr-auto" alt="profile image">
-    <div id="about-card" class="floating-card w-lg-50 w-75 pb-4 px-4 w-lg-50 mx-auto mb-4 br-20">
+    <img src="{{asset('img/profile.jpg') }}" class="floating-card floating-img d-block circle profile-image ml-auto mr-auto" alt="profile image">
+    <div class="floating-card floating-img-body w-lg-50 w-75 pb-4 px-4 w-lg-50 mx-auto mb-4 br-20">
         <svg class="svg-name d-block m-auto" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 535.54 140.488">
             <defs>
                 <clipPath id="clip-path" transform="translate(-37.544 -196.532)">
