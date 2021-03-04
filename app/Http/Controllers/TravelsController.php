@@ -13,4 +13,9 @@ class TravelsController extends Controller
     {
         return view('travels');
     }
+
+    public function mexico()
+    {
+        return view('travels');
+    }
 }

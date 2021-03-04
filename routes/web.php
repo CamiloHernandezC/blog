@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/viajes','TravelsController@show')->name('orders');
+Route::get('/viajes/mexico','TravelsController@mexico');
 
 Route::get('/eventos/curso_asesoria_06112020', function () {
     return view('events');
