@@ -1,0 +1,121 @@
+#welcomeDiv{
+    background: url("../img/bg2.jpg") no-repeat center center;
+    background-size: cover;
+    background-position-x: 30%;
+}
+#section2{
+    background: url("../img/bgs2_cel.jpg") no-repeat center center;
+    background-size: cover;
+}
+#section3{
+    background: url("../img/bgs3_cel.jpg") no-repeat center center;
+    background-size: cover;
+}
+#date{
+    background: url("../img/bg1.jpg") no-repeat center center;
+    background-size: cover;
+}
+#placeDiv{
+    background: url("../img/place1.jpg") no-repeat center center;
+    background-size: cover;
+}
+#willMarry{
+    background: url("../img/bg2.jpg") no-repeat center center;
+    /*background-size: cover;*/
+}
+.huge-font{
+    font-size: 4rem;
+}
+.medium-font{
+    font-size: 3rem;
+}
+.ourGift{
+    font-size: 3rem;
+    width: 80%;
+}
+.coupleName{
+    font-size: 4rem!important;
+}
+#logoNavBar{
+    opacity: 1;
+}
+.us{
+    margin-left: unset;
+}
+@media (min-width: 992px) {
+    .us{
+        margin-left: 20%!important;
+        width: 30%;
+    }
+    #logoNavBar{
+        opacity: 0;
+    }
+    .ourGift{
+        font-size: 3rem;
+    }
+    .huge-font{
+        font-size: 5rem;
+    }
+    .medium-font{
+        font-size: 5rem;
+    }
+    .count-down-container{
+        color: white;
+    }
+    #date {
+        /*background: url("../img/bg1.jpg") no-repeat center center;
+        background-size: cover;*/
+        background-position-y: 25%;
+    }
+    #welcomeDiv {
+        background-position-x: 0;
+    }
+    #section3{
+        background: url("../img/bgs3.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    #section2{
+        background: url("../img/bgs2.jpg") no-repeat center center;
+        background-size: cover;
+
+    }
+    .coupleName{
+        font-size: 7rem!important;
+    }
+}
+.count-down-container{
+    margin: auto;
+}
+.dress-container{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+.modal-content{
+    background-color: #1d1d1b;
+    border-color: goldenrod;
+    border-width: medium;
+    color: white;
+}
+.modal-content input{
+    background-color: #1d1d1b!important;
+}
+.modal-content button{
+    background-color: goldenrod;
+    color: white;
+}
+.jsff > p{
+    font-size: xx-large !important;
+}
+.ourMoments{
+    border-radius: unset!important;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.show{
+    font-family: "Times New Roman";
+    font-style: italic;
+}

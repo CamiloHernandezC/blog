@@ -108,6 +108,10 @@
                     <a class="nav-link" href="#">Salud</a>
                 </li>
             </ul>
+            <a id="" style="opacity: 0; transition: opacity 1s" class="nav-link wedding w-25 h-25 ml-auto mr-auto" href="{{ route('wedding') }}">
+                <p>Mi Boda</p>
+                <img style="opacity: 0; transition: opacity 1s" src="{{asset('img/anillos.png') }}" class="wedding d-block w-100 ml-auto mr-auto" alt="mi boda">
+            </a>
         </div>
     </div>
 </div>

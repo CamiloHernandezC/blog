@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+    .count-down-container {
+        height: 20vh;
+    }
+}
+.count-down-container{
+    width: 20vh;
+    text-align: center;
+    display: inline-block;
+    /*background: rgba(204, 204, 204, 0.5);*/
+}
+.count-down-container h3{
+    margin-top: 3vh;
+}
