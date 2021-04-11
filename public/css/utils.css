@@ -217,7 +217,7 @@
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
 }
-.show {
+.show-animation {
     transition: 1s ease;
     opacity: 0;
     position: absolute;
@@ -227,7 +227,7 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-.opacity-transition:hover .show{
+.opacity-transition:hover .show-animation{
     opacity: 1;
 }
 .color-white{

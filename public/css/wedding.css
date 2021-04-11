@@ -40,12 +40,16 @@
     opacity: 1;
 }
 .us{
-    margin-left: unset;
+    margin-top: 5vh;
+    margin-left: auto;
+    width: 75%;
 }
 @media (min-width: 992px) {
     .us{
         margin-left: 20%!important;
         width: 30%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     #logoNavBar{
         opacity: 0;
@@ -98,6 +102,8 @@
     border-color: goldenrod;
     border-width: medium;
     color: white;
+    font-family: "Times New Roman";
+    font-style: italic;
 }
 .modal-content input{
     background-color: #1d1d1b!important;
@@ -115,7 +121,7 @@
     background-position: center;
     background-size: cover;
 }
-.show{
+.show-animation{
     font-family: "Times New Roman";
     font-style: italic;
 }

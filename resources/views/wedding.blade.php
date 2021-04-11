@@ -113,7 +113,11 @@
     </div>
 </div>
 <div class="full-height d-flex mx-3 my-4 floating-card" id="section2">
-    <p class="mt-3 my-md-auto mx-auto color-white text-justify us">¡NOS CASAMOS! 10/07/2021 </p>
+    <div class="mx-auto color-white text-justify us">
+    <p>¡Nos casamos!</p>
+        <p>Hace 7 años comenzamos esta aventura cuando apenas éramos universitarios, hemos crecido de la mano, nos hemos apoyado en momentos difíciles, celebrado logros personales y profesionales y nos hemos dado cuenta que juntos podemos llegar a donde nos proponemos. Este año quisimos comenzar de la mejor manera, por eso nos comprometimos desde el primer día del año y ahora queremos compartir con nuestra familia y amigos el inicio de esta nueva etapa…</p>
+        <p>¡Que empiece la aventura! </p>
+    </div>
 </div>
 <div class="full-height mx-3 my-4 pt-5 floating-card text-center" style="color: white; height: 100vh" id="date">
     @include('confirmAttendanceModal')
@@ -276,7 +280,7 @@
             </div>
             <a href="https://www.booking.com/hotel/co/santorini-casa-blanca.es.html?aid=397594;label=gog235jc-1FCAEoggI46AdIM1gDaI4CiAEBmAEKuAEXyAEM2AEB6AEB-AEMiAIBqAIDuAKL2fSCBsACAdICJGRkMzg4MjU2LWM5NjAtNGI5MS05NTAxLTljZjNkMWEyYzQ5M9gCBuACAQ;sid=eab94be5fff7c7252cff069c631b6a23;all_sr_blocks=156090114_265713004_0_1_0;checkin=2021-07-10;checkout=2021-07-11;dest_id=-598739;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=1;group_children=0;hapos=5;highlighted_blocks=156090114_265713004_0_1_0;hpos=5;no_rooms=1;req_adults=1;req_children=0;room1=A;sb_price_type=total;sr_order=popularity;sr_pri_blocks=156090114_265713004_0_1_0__20700000;srepoch=1616719103;srpvid=5804047e232700c6;type=total;ucfs=1&#hotelTmpl" target="_blank" style=" color: white">
                 <div class="opacity opacity-transition col-12">
-                    <div class="show">
+                    <div class="show-animation">
                         <p>Hotel Santorini</p>
                         <p>$207.000 persona/noche</p>
                     </div>
@@ -290,14 +294,14 @@
             </div>
             <a href="https://www.booking.com/hotel/co/ghl-comfort-costa-azul.es.html?aid=397594;label=gog235jc-1FCAEoggI46AdIM1gDaI4CiAEBmAEKuAEXyAEM2AEB6AEB-AEMiAIBqAIDuAKL2fSCBsACAdICJGRkMzg4MjU2LWM5NjAtNGI5MS05NTAxLTljZjNkMWEyYzQ5M9gCBuACAQ;sid=eab94be5fff7c7252cff069c631b6a23;all_sr_blocks=27039201_239763995_0_1_0;checkin=2021-07-10;checkout=2021-07-11;dest_id=-598739;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=1;group_children=0;hapos=1;highlighted_blocks=27039201_239763995_0_1_0;hpos=1;no_rooms=1;req_adults=1;req_children=0;room1=A;sb_price_type=total;sr_order=popularity;sr_pri_blocks=27039201_239763995_0_1_0__17212500;srepoch=1616719103;srpvid=5804047e232700c6;type=total;ucfs=1&#hotelTmpl" target="_blank" style=" color: white">
                 <div class="opacity opacity-transition  col-12">
-                    <div class="show">
+                    <div class="show-animation">
                         <p>Hotel Costa Azul</p>
                         <p>$172.000 persona/noche</p>
                     </div>
                 </div>
             </a>
         </div>
-        <div class="position-relative col-12 col-mg-4 p-0 mb-5" style="height: 50vh; background: url(../img/hotel1.jpeg); background-size: cover;">
+        <div class="position-relative col-12 col-md-4 p-0 mb-5" style="height: 50vh; background: url(../img/hotel1.jpeg); background-size: cover;">
             <div class="d-block d-md-none color-white mr-3 position-absolute text-right" style="right: 0; bottom: 0">
                 <p>Casa Konna</p>
                 <p>Estadía compartida</p>
@@ -305,7 +309,7 @@
             </div>
             <a href="https://abnb.me/VRXWYsRxVeb" target="_blank" style=" color: white">
                 <div class="opacity opacity-transition  col-12">
-                    <div class="show">
+                    <div class="show-animation">
                         <p>Casa Konna</p>
                         <p>Estadía compartida</p>
                         <p>$99.000 persona/noche</p>

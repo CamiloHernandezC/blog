@@ -1,6 +1,6 @@
 <div class="modal fade" id="confirmAttendanceModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
+        <div class="modal-content font-italic">
             <div class="modal-header border-0">
                 <h5 class="modal-title m-auto" id="exampleModalLabel">Confirmar Asistencia</h5>
             </div>
@@ -8,17 +8,18 @@
                 @if(\Illuminate\Support\Facades\Session::get('attendee'))
                     <form id="confirmAttendance" method="post" action="{{route('confirmAttendance')}}" autocomplete="off" enctype="multipart/form-data">
                         @csrf
-                        <div class="w-75 m-auto">
+                        <div class="w-75 m-auto text-left">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox"  name="principalAttendance">
-                                <label class="form-check-label ml-5" for="flexCheckDefault">
+                            <div class="form-check row">
+                                <input class="form-check-input position-relative col-4" type="checkbox"  name="principalAttendance">
+                                <label class="form-check-label col-8" for="flexCheckDefault">
                                     {{\Illuminate\Support\Facades\Session::get('attendee')->name}}
                                 </label>
                             </div>
                             @foreach(\Illuminate\Support\Facades\Session::get('attendee')->subAttendees()->get() as $subAttendee)
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox"  name="subAttendees[]" value="{{$subAttendee->id}}">
-                                    <label class="form-check-label ml-5" for="flexCheckDefault">
+                                <div class="form-check row">
+                                    <input class="form-check-input position-relative col-4" type="checkbox"  name="subAttendees[]" value="{{$subAttendee->id}}">
+                                    <label class="form-check-label col-8" for="flexCheckDefault">
                                         {{$subAttendee->name}}
                                     </label>
                                 </div>

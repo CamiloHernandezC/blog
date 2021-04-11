@@ -18,7 +18,7 @@ class CreateAttendeesTable extends Migration
             $table->timestamps();
             $table->string('name')->unique();
             $table->boolean('type');
-            $table->unsignedInteger('relation')->nullable()->unique();//foreign
+            $table->unsignedInteger('relation')->nullable();//foreign
             $table->unsignedInteger('code')->nullable()->unique();//foreign
             $table->boolean('confirm');
 

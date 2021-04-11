@@ -9,8 +9,8 @@
                         @csrf
                         <input hidden id="giftId" name="giftId">
                         <div class="form-group">
-                            <label for="name">Nombre</label>
-                            <input type="text" class="form-control text-light" id="name" name="name" required>
+                            <label for="name">Correo</label>
+                            <input type="email" class="form-control text-light" id="name" name="name" required>
                         </div>
                         <div class="modal-footer border-0">
                             <button type="submit" class="btn m-auto">Confirmar</button>
