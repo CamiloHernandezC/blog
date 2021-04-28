@@ -35,7 +35,7 @@
                         @csrf
                         <div class="form-group">
                             <label for="nameCode">Nombre o código</label>
-                            <input type="text" class="form-control text-light" id="nameCode" aria-describedby="nameCodeHelp" required>
+                            <input type="text" class="form-control text-light" id="nameCode" aria-describedby="nameCodeHelp" name="nameCode" required>
                             <small id="nameCodeHelp" class="form-text text-muted">Coloca el nombre tal como aparece en la invitación o el código.</small>
                         </div>
                         <div class="modal-footer border-0">

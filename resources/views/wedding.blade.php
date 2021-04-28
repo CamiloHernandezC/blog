@@ -113,10 +113,16 @@
     </div>
 </div>
 <div class="full-height d-flex mx-3 my-4 floating-card" id="section2">
-    <div class="mx-auto color-white text-justify us">
-    <p>¡Nos casamos!</p>
-        <p>Hace 7 años comenzamos esta aventura cuando apenas éramos universitarios, hemos crecido de la mano, nos hemos apoyado en momentos difíciles, celebrado logros personales y profesionales y nos hemos dado cuenta que juntos podemos llegar a donde nos proponemos. Este año quisimos comenzar de la mejor manera, por eso nos comprometimos desde el primer día del año y ahora queremos compartir con nuestra familia y amigos el inicio de esta nueva etapa…</p>
+    <div class="mx-auto color-white text-justify us" style="font-family: 'Times New Roman'; font-style: italic">
+        <p>Meli:</p>
+        <p>¡Nos casamos!</p>
+        <p>Hace 7 años comenzamos esta aventura cuando apenas éramos unos universitarios, hemos crecido de la mano, nos hemos apoyado en momento difíciles, celebrado logros personales y profesionales y nos hemos dado cuenta que juntos podemos llegar donde nos proponemos. Este año hemos decidido comenzar una nueva etapa en nuestras vidas de la mano de nuestra familia y amigos…</p>
         <p>¡Que empiece la aventura! </p>
+    </div>
+    <div class="mx-auto color-white text-justify us" style="font-family: 'Times New Roman'; font-style: italic">
+        <p>Cami:</p>
+        <p></p>
+        <p>El 2021 marca el inicio de una nueva década y para mi no hay mejor forma de comenzar que casandome con Meli, por eso quise pedirle matrimonio desde el primer del año y afortunadamente ella dijo que si a este nuevo comienzo que hemos venido cultivando por tantos años. Una relación basada en la confianza, en la amistad, en el amor y la felicidad.</p>
     </div>
 </div>
 <div class="full-height mx-3 my-4 pt-5 floating-card text-center" style="color: white; height: 100vh" id="date">
@@ -192,7 +198,7 @@
             </div>
             <div class="dress-container">
                 <img src="{{asset('img/men_cloth.png') }}" style="height: 60vh" alt="mi boda">
-                <p>Guayabera blanca y Pantalón Caqui</p>
+                <p>Guayabera blanca y Pantalón Beige</p>
             </div>
         </div>
         <div class="d-flex flex-row-reverse flex-md-row w-md-50 w-sm-100">
@@ -317,7 +323,7 @@
                 </div>
             </a>
         </div>
-        <h3 class="fftb m-auto">Si deseas reservar en estadía compartida escribenos para ayudarte</h3>
+        <h3 class="fftb m-auto">Si deseas reservar en estadía compartida escribenos para ayudarte o también puedes hacer click en las imagenes para ver el link de la estadia</h3>
     </div>
 </div>
 <div class="full-height mx-3 my-4 text-center">
