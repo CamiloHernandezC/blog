@@ -18,6 +18,16 @@ Route::get('/', function () {
 });
 
 Route::get('/boda','WeddingController@show')->name('wedding');
+Route::get('/blogs','BlogsController@show')->name('blogs');
+Route::get('/blog/{blog}', 'BlogsController@blog')->name('blog');
+Route::post('/blog/edit', 'BlogsController@editBlog')->name('editBlog');
+Route::post('/{blog}/comment/', 'BlogsController@commentBlog')->name('commentBlog');
+Route::post('/{comment}/reply/', 'BlogsController@replyComment')->name('replyComment');
+
+Route::post('/insert-image', 'BlogsController@insertImage');
+Route::post('/upload-image', 'BlogsController@uploadImage');
+Route::post('/rotate-image', 'BlogsController@uploadImage');//TODO ROTATE AND CROP
+
 Route::get('/viajes','TravelsController@show')->name('travels');
 Route::get('/viajes/mexico','TravelsController@mexico');
 Route::post('/find_attendee', 'AttendeesController@find')->name('findAttendee');

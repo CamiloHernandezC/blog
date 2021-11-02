@@ -1,0 +1,28 @@
+.huge-font{
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.big-font{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.medium-font{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.normal-font{
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+}
+#logoNavBar{
+    opacity: 1;
+    font-size: xxx-large;
+    line-height: unset;
+}
+@media (min-width: 992px) {
+    #logoNavBar{
+        opacity: 0;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}

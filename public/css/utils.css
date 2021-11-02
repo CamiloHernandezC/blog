@@ -85,9 +85,15 @@
     .w-lg-50 {
         width: 50% !important;
     }
+    .w-lg-40 {
+        width: 40% !important;
+    }
 
     .w-lg-25 {
         width: 25% !important;
+    }
+    .blog-card{
+        height: 50vh!important;
     }
 }
 @media (min-width:1200px){
@@ -192,6 +198,9 @@
 .blog-title{
     font-family: "Feeling Passionate", Verdana, Tahoma;
     text-align: center;
+}
+.blog-card{
+    height: 80vh;
 }
 
 .todo{
