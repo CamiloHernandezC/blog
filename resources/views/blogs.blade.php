@@ -59,15 +59,17 @@
             @endforeach
 
         </div>
+        <!--Instagram-->
         <div class="ml-auto mr-auto mr-lg-5"
             loading="lazy"
-            data-mc-src="6bbb358e-5d4c-4054-8f57-a763dc822abb#instagram"></div>
-
+            data-mc-src="5c2ead82-53cb-4bfc-aa41-da8c0ae6736a#instagram">
+        </div>
     </div>
 @endsection
 
 
 @push('scripts')
+    <!--Instagram-->
     <script
         src="https://cdn2.woxo.tech/a.js#616af38872a6520016a29c25"
         async data-usrc>
