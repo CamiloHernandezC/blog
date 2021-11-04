@@ -82,7 +82,9 @@
 @endsection
 
 @push('scripts')
-    <!--para que el contenido de la página se pueda editar-->
-    <script src="{{asset('wysiwyg/content-tools.min.js')}}"></script>
-    <script src="{{asset('wysiwyg/editor.js')}}"></script>
+    @if(\Illuminate\Support\Facades\Auth::check())
+        <!--para que el contenido de la página se pueda editar-->
+        <script src="{{asset('wysiwyg/content-tools.min.js')}}"></script>
+        <script src="{{asset('wysiwyg/editor.js')}}"></script>
+    @endif
 @endpush
