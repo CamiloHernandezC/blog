@@ -21,15 +21,15 @@
                                     <div>
                                         <div>
                                             <ul class="d-flex pl-0">
-                                                <li style="overflow: hidden"><span title="{{$blog->created_at}}">{{$blog->created_at}}</span></li>
+                                                <li style="overflow: hidden"><span title="{{$blog->created_at}}">{{$blog->created_at->format('d-m-Y')}}</span></li>
                                                 <li style="overflow: hidden">
                                                     <div></div>
                                                 </li>
-                                                <!--TODO count comments
-                                                <li style="overflow: hidden">
-                                                    <span title="comments">2 comments</span>
-                                                </li>
-                                                -->
+                                                @if($blog->comments->count() > 0)
+                                                    <li style="overflow: hidden" class="ml-auto">
+                                                        <span title="comments">{{$blog->comments->count()}} {{ __('general.comments') }}</span>
+                                                    </li>
+                                                @endif
                                             </ul>
                                         </div>
                                     </div>

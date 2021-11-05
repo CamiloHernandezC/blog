@@ -130,7 +130,7 @@
     min-height: 100vh;
 }
 .circle{
-    border-radius: 100%
+    border-radius: 100%!important;
 }
 .profile-image{
     width: 200px;
@@ -183,13 +183,13 @@
     font-family: "Tangerine_Bold";
     src:  url('../fonts/Tangerine_Bold.ttf') format("truetype");
 }
-.fftb{
+.font-fftb{
     font-family: Tangerine_Bold;
 }
-.jsff{
+.font-jsff{
     font-family: josephsophia;
 }
-.ffabr{
+.font-ffabr{
     font-family: AlexBrush-Regular;
 }
 .iheart{
@@ -241,6 +241,9 @@
 }
 .color-white{
     color: white;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
 }
 
 

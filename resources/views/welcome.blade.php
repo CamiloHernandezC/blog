@@ -44,7 +44,7 @@
                         <text transform="translate(1.78 65.87)" style="font-size: 78px;fill: none;font-family: josephsophia">Mel</text>
                     </clipPath>
                     <clipPath id="clip-path-2" >
-                        <text transform="translate(91.47 65.87)" style="font-size: 78px;fill: none" class="iheart jsff">i</text>
+                        <text transform="translate(91.47 65.87)" style="font-size: 78px;fill: none" class="iheart font-jsff">i</text>
                     </clipPath>
                     <clipPath id="cami" >
                         <text transform="translate(180.71 65.87)" style="font-size: 78px;fill: none;font-family: josephsophia">Cami</text>
@@ -74,41 +74,38 @@
                         <path id="ih4" d="M153.61,153.57s2-1.48,3.71-2.93" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
                         <path id="ih5" d="M178.67,120c-4.63,17.19-21.35,30.65-21.35,30.65" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-miterlimit: 10;stroke-width: 3px"/>
                         <polyline id="ih6" points="161.42 30.1 161.81 22.07 159.31 18.45 152.93 17.63 145.96 22.48 141.96 27.44 138.55 37.3" style="fill: none;stroke: #ffed00;stroke-miterlimit: 10;stroke-width: 7px"/>
-                        <polyline id="ih7" points="139.58 29.22 134.78 23.31 128.37 18.39 120.74 19.46 118.75 24.58 119.19 31.53 120.74 36.23 123.67 44.54 130.56 54.6" style="fill: none;stroke: #ffed00;stroke-miterlimit: 10;stroke-width: 7px"/>
-                        <polyline id="ih8" points="130.56 54.6 136.85 60.9 145.57 67 153.71 69.3 162.72 69.3 169.02 66.12 175.03 61.33 179.1 55.37 181.38 49.62" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+                        <polyline id="ih7" points="139.58 29.22 134.78 23.31 128.37 18.39 120.74 19.46 118.75 24.58 119.19 31.53 120.74 36.23 123.67 44.54 130.56 54.6" style="fill: none;stroke: #000000;stroke-miterlimit: 10;stroke-width: 7px"/>
+                        <polyline id="ih8" points="130.56 54.6 136.85 60.9 145.57 67 153.71 69.3 162.72 69.3 169.02 66.12 175.03 61.33 179.1 55.37 181.38 49.62" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
                     </g>
                     <g id="C" style="clip-path: url(#cami)" class="melissa-animate">
-                        <polyline points="206.91 29.84 208.7 22.37 206.91 17.63 204.31 15.61 199.91 14.11 190.44 21.41 187.35 30.78 186.3 35.46 186.13 42.55 186.96 49.12 188.14 55.52 194.63 64.05 200.09 64.33 204.73 61.26 207.49 56.36 208.07 50.42 207.73 45.79" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 8px"/>
+                        <polyline points="206.91 29.84 208.7 22.37 206.91 17.63 204.31 15.61 199.91 14.11 190.44 21.41 187.35 30.78 186.3 35.46 186.13 42.55 186.96 49.12 188.14 55.52 194.63 64.05 200.09 64.33 204.73 61.26 207.49 56.36 208.07 50.42 207.73 45.79" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 8px"/>
                     </g>
                     <g id="a" style="clip-path: url(#cami)" class="melissa-animate">
-                        <polyline id="a1" points="225.83 43.44 227.39 34.71 220.15 38.02 217.09 46.81 216.47 53.43 217.06 59.6 222.17 62.08 234.45 32.33 231.2 56.2 234.06 62.08" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-linejoin: bevel;stroke-width: 7px"/>
-                        <path id="a2" d="M253.33,153.14c3.3.46,6.43-6.43,6.43-6.43v-6.6" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-linejoin: bevel;stroke-width: 3px"/>
+                        <polyline id="a1" points="225.83 43.44 227.39 34.71 220.15 38.02 217.09 46.81 216.47 53.43 217.06 59.6 222.17 62.08 234.45 32.33 231.2 56.2 234.06 62.08" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: bevel;stroke-width: 7px"/>
+                        <path id="a2" d="M253.33,153.14c3.3.46,6.43-6.43,6.43-6.43v-6.6" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: bevel;stroke-width: 3px"/>
                     </g>
                     <g id="m" style="clip-path: url(#cami)" class="melissa-animate">
-                        <path id="m1" d="M266.18,126.77c-1.16,7.93-2.45,20.47-.82,25.35" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-linejoin: bevel;stroke-width: 7px"/>
-                        <polyline id="m2" points="249.41 59.73 251.38 46.6 254.73 36.9 257.95 33.93 262.89 36 263.19 47.02 262.14 60.1 267.69 44.54 270.7 38.1 276.02 34.33 279.19 36.47 278.59 44.02 278.25 48.14 277.99 55.86 279.32 62.74 282.42 61.97" style="fill: none;stroke: #ffed00;stroke-linejoin: bevel;stroke-width: 7px"/>
-                        <path id="m3" d="M307.38,139.91c-.42,1.46-1.31,4-1.31,4s-2.33,8.45-6,9.92" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
+                        <path id="m1" d="M266.18,126.77c-1.16,7.93-2.45,20.47-.82,25.35" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: bevel;stroke-width: 7px"/>
+                        <polyline id="m2" points="249.41 59.73 251.38 46.6 254.73 36.9 257.95 33.93 262.89 36 263.19 47.02 262.14 60.1 267.69 44.54 270.7 38.1 276.02 34.33 279.19 36.47 278.59 44.02 278.25 48.14 277.99 55.86 279.32 62.74 282.42 61.97" style="fill: none;stroke: #000000;stroke-linejoin: bevel;stroke-width: 7px"/>
+                        <path id="m3" d="M307.38,139.91c-.42,1.46-1.31,4-1.31,4s-2.33,8.45-6,9.92" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
                     </g>
                     <g id="i" style="clip-path: url(#cami)" class="melissa-animate">
-                        <line id="ih1" x1="294.44" y1="28.12" x2="294.44" y2="31" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 9px"/>
-                        <path id="ih2" d="M310.47,130.17s-3.09,23.11,1.21,22.79" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 7px"/>
-                        <path d="M314.7,153.52c3-2.92,5.49-10.15,6.6-13.69" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #ffed00;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
+                        <line id="ih1" x1="294.44" y1="28.12" x2="294.44" y2="31" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 9px"/>
+                        <path id="ih2" d="M310.47,130.17s-3.09,23.11,1.21,22.79" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 7px"/>
+                        <path d="M314.7,153.52c3-2.92,5.49-10.15,6.6-13.69" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
                     </g>
                 </g>
             </svg>
             <ul id="welcome-links" class="nav justify-content-center" style="opacity: 0; transition: opacity 1s">
                 <li class="nav-item hl-li">
-                    <a class="nav-link active" href="#">Viajes</a>
+                    <a class="nav-link active" href="{{route('blogs')}}">Blogs</a>
                 </li>
                 <li class="nav-item hl-li">
-                    <a class="nav-link" href="#">Maquillaje</a>
-                </li>
-                <li class="nav-item hl-li">
-                    <a class="nav-link" href="#">Salud</a>
+                    <a class="nav-link" href="{{route('aboutUs')}}">{{ __('general.About_Us') }}</a>
                 </li>
             </ul>
             <a id="" style="opacity: 0; transition: opacity 1s" class="nav-link wedding w-25 h-25 ml-auto mr-auto" href="{{ route('wedding') }}">
-                <p>Mi Boda</p>
+                <p>Nuestra Boda</p>
                 <img style="opacity: 0; transition: opacity 1s" src="{{asset('img/anillos.png') }}" class="wedding d-block w-100 ml-auto mr-auto" alt="mi boda">
             </a>
 

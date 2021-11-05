@@ -18,13 +18,23 @@
 </head>
 <body data-spy="scroll" data-target=".navbar">
 
-<div class="jsff sticky-top text-center bg-girl floating-card mx-3 rounded-20px" style="height: 10vh; border-top-left-radius: 0px!important; border-top-right-radius: 0px!important">
-    <h1 id="logoNavBar" class="color-white w-100 m-auto position-absolute"><span class="iheart">m</span>c</h1>
-    <nav id="linksNavBar" class="navbar navbar-expand-lg navbar-dark text-center w-100 position-absolute" style="background: transparent">
-        <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent" style="font-family: 'Times New Roman'; font-style: italic">
-            <ul class="navbar-nav">
+<div class="font-jsff sticky-top text-center bg-girl floating-card mx-3 rounded-20px" style="height: 10vh; border-top-left-radius: 0px!important; border-top-right-radius: 0px!important">
+    <div id="logoNavBar" class="color-white w-100 h-100 m-auto position-absolute">
+        <div class="vertical-center">
+            <h1 ><span class="iheart">m</span>c</h1>
+        </div>
+    </div>
+    <nav id="linksNavBar" class="navbar navbar-expand-lg navbar-dark text-center w-100 h-100 position-absolute" style="background: transparent">
+        <div class="collapse navbar-collapse h-100" id="navbarSupportedContent" style="font-family: 'Times New Roman'; font-style: italic">
+            <ul class="navbar-nav justify-content-evenly w-100">
+                <li class="nav-item active">
+                    <a class="navbar-brand" href="{{route('aboutUs')}}">{{ __('general.About_Us') }}</a>
+                </li>
                 <li class="nav-item active">
                     <a class="navbar-brand" href="{{route('blogs')}}">Blogs</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="navbar-brand" href="{{ route('wedding') }}">{{ __('general.Our_Wedding') }}</a>
                 </li>
             </ul>
         </div>

@@ -50,7 +50,7 @@
 </head>
 <body data-spy="scroll" data-target=".navbar">
 
-<div class="jsff sticky-top text-center bg-girl floating-card mx-3 rounded-20px" style="height: 10vh; border-top-left-radius: 0px!important; border-top-right-radius: 0px!important">
+<div class="font-jsff sticky-top text-center bg-girl floating-card mx-3 rounded-20px" style="height: 10vh; border-top-left-radius: 0px!important; border-top-right-radius: 0px!important">
     <h1 id="logoNavBar" class="color-white w-100 m-auto position-absolute"><span class="iheart">m</span>c</h1>
     <nav id="linksNavBar" class="navbar navbar-expand-lg navbar-dark text-center w-100 position-absolute" style="background: transparent">
         <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent" style="font-family: 'Times New Roman'; font-style: italic">
@@ -88,7 +88,7 @@
     </nav>
 </div>
 <div class="d-flex position-relative full-height mx-3 my-4 floating-card" id="welcomeDiv">
-    <div class="d-none justify-content-around flex-column m-auto text-center jsff">
+    <div class="d-none justify-content-around flex-column m-auto text-center font-jsff">
         <p>M</p>
         <p>e</p>
         <p>l</p>
@@ -99,14 +99,14 @@
         <p>m</p>
         <p>i</p>
     </div>
-    <div class="d-flex text-center jsff my-1 my-md-auto mx-auto mr-md-5 coupleName" style="color: white;">
+    <div class="d-flex text-center font-jsff my-1 my-md-auto mx-auto mr-md-5 coupleName" style="color: white;">
         Mel<span class="iheart">i</span>Cami
     </div>
 <!--<img style="width: 100vw" class="d-block m-auto" src="{{asset('img/bg2.jpg')}}">
     <div class="d-flex text-center jsff centered" style="top: 80%; color:white; font-size: 7rem!important;">
         10-07-2021
     </div>-->
-    <div class="d-none justify-content-around flex-column m-auto text-center jsff">
+    <div class="d-none justify-content-around flex-column m-auto text-center font-jsff">
         <p>10</p>
         <p>07</p>
         <p>2021</p>
@@ -127,9 +127,9 @@
 </div>
 <div class="full-height mx-3 my-4 pt-5 floating-card text-center" style="color: white; height: 100vh" id="date">
     @include('confirmAttendanceModal')
-    <h1 class="ffabr medium-font" >Save The Date</h1>
-    <h1 class="fftb huge-font" >10-07-2021</h1>
-    <div class="d-flex flex-column flex-md-row w-75 h-75 h-lg-25 m-auto justify-content-between fftb">
+    <h1 class="font-ffabr medium-font" >Save The Date</h1>
+    <h1 class="font-fftb huge-font" >10-07-2021</h1>
+    <div class="d-flex flex-column flex-md-row w-75 h-75 h-lg-25 m-auto justify-content-between font-fftb">
         <div class="count-down-container" style="background-color: #add8e6CC">
             <h1 id="count-down-days"></h1>
             <h3>Días</h3>
@@ -153,7 +153,7 @@
 </div>
 <div style="height: 110vh" class="mx-3 my-4 floating-card" id="placeDiv">
     <div style="height: 110vh" class="position-relative text-center">
-        <h1 class="centered w-100 fftb huge-font" style="top:20%;">Santa Marta</h1>
+        <h1 class="centered w-100 font-fftb huge-font" style="top:20%;">Santa Marta</h1>
     </div>
 </div>
 <div class="d-sm-block d-md-flex mx-3">
@@ -165,7 +165,7 @@
     </div>
 </div>
 <div class="full-height mx-3 my-4 floating-card bg-girl pt-5 pb-5" id="ourMoments">
-    <h1 class="ffabr text-center mb-5">Nuestros Momentos</h1>
+    <h1 class="font-ffabr text-center mb-5">Nuestros Momentos</h1>
     <div class="container">
         <div class="row justify-content-around pl-5 pr-5">
             <div class="col-3 ourMoments floating-card" style="background-image: url(../img/om1.jpg)"></div>
@@ -181,8 +181,8 @@
     </div>
 </div>
 <div class="full-height mx-3 my-4" id="dressCode">
-    <h1 class="text-center mb-5 mb-md-0 ffabr">Código de Vestimenta</h1>
-    <h2 class="text-center mb-5 mb-md-0 fftb">Formal Guayabera</h2>
+    <h1 class="text-center mb-5 mb-md-0 font-ffabr">Código de Vestimenta</h1>
+    <h2 class="text-center mb-5 mb-md-0 font-fftb">Formal Guayabera</h2>
     <div class="d-sm-block d-md-flex justify-content-around">
         <div class="d-flex w-md-50 w-sm-100 mb-5 mb-md-0">
             <div class="floating-card d-flex text-center w-25 p-4" style="background: lightblue; color: white;">
@@ -222,7 +222,7 @@
     </div>
 </div>
 <div class="full-height mx-3 my-4 floating-card bg-boy pt-5" id="gifts">
-    <h1 class="text-center ffabr" style="color: white">Mesa de Regalos</h1>
+    <h1 class="text-center font-ffabr" style="color: white">Mesa de Regalos</h1>
     @if(count($gifts)>0)
         @include('assignGiftModal')
         <div id="immediateDeliveryCarousel" class="carousel slide mt-3" data-ride="carousel">
@@ -268,15 +268,15 @@
     <div class="opacity rounded-20px" style="background-color: rgba(248, 247, 216, 0.7);">
     </div>
     <div style="z-index: 1000;" class="centered text-center ourGift">
-        <h1 class="fftb mb-5">Nuestro mejor regalo sería tu compañia...</h1>
-        <h3 class="fftb">Si hay algo que queremos en nuestra boda, es compartir con nuestros familiares y amigos un evento tan especial como será la unión de nuestro amor. Nos hará inmensamente felices que puedas acompañarnos, así que más que cualquier cosa estaremos agradecidos por tu presencia.</h3>
-        <button data-toggle="modal" data-target="#confirmAttendanceModal" class="fftb btn d-block ml-auto mr-auto mt-5 br-20"
+        <h1 class="font-fftb mb-5">Nuestro mejor regalo sería tu compañia...</h1>
+        <h3 class="font-fftb">Si hay algo que queremos en nuestra boda, es compartir con nuestros familiares y amigos un evento tan especial como será la unión de nuestro amor. Nos hará inmensamente felices que puedas acompañarnos, así que más que cualquier cosa estaremos agradecidos por tu presencia.</h3>
+        <button data-toggle="modal" data-target="#confirmAttendanceModal" class="font-fftb btn d-block ml-auto mr-auto mt-5 br-20"
                 style="background-color: lightblue; color: white"><h4>Confirmar Asistencia</h4></button>
     </div>
 </div>
 <div class="full-height mx-3 my-4 floating-card bg-girl pt-5 pb-5" id="hosting">
-    <h1 class="ffabr text-center">Hospedaje</h1>
-    <h2 class="fftb text-center">Cercano al Evento</h2>
+    <h1 class="font-ffabr text-center">Hospedaje</h1>
+    <h2 class="font-fftb text-center">Cercano al Evento</h2>
 
     <div class="row m-auto" style="width: 95%">
         <div class="position-relative col-12 col-md-4 p-0" style="height: 50vh; background: url(../img/hotel2.jpeg); background-size: cover;">
@@ -323,7 +323,7 @@
                 </div>
             </a>
         </div>
-        <h3 class="fftb m-auto">Si deseas reservar en estadía compartida escribenos para ayudarte o también puedes hacer click en las imagenes para ver el link de la estadia</h3>
+        <h3 class="font-fftb m-auto">Si deseas reservar en estadía compartida escribenos para ayudarte o también puedes hacer click en las imagenes para ver el link de la estadia</h3>
     </div>
 </div>
 <div class="full-height mx-3 my-4 text-center">
