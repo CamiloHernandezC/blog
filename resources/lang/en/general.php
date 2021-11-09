@@ -17,5 +17,6 @@ return [
     'About_Us' => 'Nosotros',
     'Our_Wedding' => 'Nuestra Boda',
     'comments' => 'comentarios',
-    'Who_we_are' => 'Quienes Somos'
+    'Who_we_are' => 'Quienes Somos',
+    'Welcome' => 'Bienvedi@s'
 ];

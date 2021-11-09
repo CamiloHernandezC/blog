@@ -18,10 +18,11 @@ class BlogsController extends Controller
      * Display the list of travel blogs.
      *
      */
-    public function show()
+    //TODO create a services that brings the blogs then call that service in the show method and change blogs.blade to include service instead of controller
+    public function getBlogs()
     {
-        $blogs = Blog::where('created_at', '!=', null)->orderBy('created_at', 'desc')->get();//se debe colocar una condicion dummy en el where para poder usar el order by
-        return view('blogs', compact('blogs'));
+        //se debe colocar una condicion dummy en el where para poder usar el order by
+        return Blog::where('created_at', '!=', null)->orderBy('created_at', 'desc')->get();
     }
 
     public function blog(Blog $blog){

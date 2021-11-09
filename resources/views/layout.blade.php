@@ -28,10 +28,10 @@
         <div class="collapse navbar-collapse h-100" id="navbarSupportedContent" style="font-family: 'Times New Roman'; font-style: italic">
             <ul class="navbar-nav justify-content-evenly w-100">
                 <li class="nav-item active">
-                    <a class="navbar-brand" href="{{route('aboutUs')}}">{{ __('general.About_Us') }}</a>
+                    <a class="navbar-brand" href="#aboutUs">{{ __('general.About_Us') }}</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="navbar-brand" href="{{route('blogs')}}">Blogs</a>
+                    <a class="navbar-brand" href="#blogs">Blogs</a>
                 </li>
                 <li class="nav-item active">
                     <a class="navbar-brand" href="{{ route('wedding') }}">{{ __('general.Our_Wedding') }}</a>
@@ -41,8 +41,12 @@
     </nav>
 </div>
 
-<main class="py-4" style="font-family: 'Times New Roman'; font-style: italic">
-@yield('content')
+<main style="font-family: 'Times New Roman'; font-style: italic">
+    @yield('content')
+
+    <footer class="footer text-right pr-4">
+        Desarrollado por mi ingeniero con mucho <img src="{{asset('img/heart.png')}}" width="20px">
+    </footer>
 </main>
 
 </body>
