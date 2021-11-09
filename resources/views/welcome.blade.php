@@ -28,7 +28,7 @@
     <div class="w-100 font-jsff" style="font-style: normal!important;">
         <div class="content">
             <div class="title m-b-md">
-                <svg id="svg-title" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 305.03 88.72">
+                <svg id="svg-title" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 305.11 88.72">
                     <defs>
                         <!--Letras-->
                         <clipPath id="clip-path" >
@@ -64,8 +64,10 @@
                         <path id="ih4" d="M153.61,153.57s2-1.48,3.71-2.93" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #CBBEB9FF;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
                         <path id="ih5" d="M178.67,120c-4.63,17.19-21.35,30.65-21.35,30.65" transform="translate(-17.24 -90.78)" style="fill: none;stroke: #CBBEB9FF;stroke-miterlimit: 10;stroke-width: 3px"/>
                         <polyline id="ih6" points="161.42 30.1 161.81 22.07 159.31 18.45 152.93 17.63 145.96 22.48 141.96 27.44 138.55 37.3" style="fill: none;stroke: #CBBEB9FF;stroke-miterlimit: 10;stroke-width: 7px"/>
-                        <polyline id="ih7" points="139.58 29.22 134.78 23.31 128.37 18.39 120.74 19.46 118.75 24.58 119.19 31.53 120.74 36.23 123.67 44.54 130.56 54.6" style="fill: none;stroke: lightblue;stroke-miterlimit: 10;stroke-width: 7px"/>
-                        <polyline id="ih8" points="130.56 54.6 136.85 60.9 145.57 67 153.71 69.3 162.72 69.3 169.02 66.12 175.03 61.33 179.1 55.37 181.38 49.62" style="fill: none;stroke: lightblue;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+                        <path id="ih7" d="M152.22,128l-.2-13.91-6.41-4.91L138,110.24l-2,5.12.43,6.94L138,127l2.92,8.32,6.89,10.05" transform="translate(-17.24 -90.78)" style="fill: none;stroke: lightblue;stroke-miterlimit: 10;stroke-width: 7px"/>
+                        <line id="ih8" x1="130.28" y1="54.2" x2="135.32" y2="59.7" style="fill: none;stroke: lightblue;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
+                        <path id="ih9" d="M152.83,150.71a46.55,46.55,0,0,0,3.93,3.16,42.31,42.31,0,0,0,6.11,3.71c1.38.67,2.59,1.15,3.49,1.49l2.23.69c.92.17.46.13,1.39.3" transform="translate(-17.24 -90.78)" style="fill: none;stroke: lightblue;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 2.1px"/>
+                        <path id="ih10" d="M170.41,160.26c3.65,1.08,22.33.35,28.2-20.07" transform="translate(-17.24 -90.78)" style="fill: none;stroke: lightblue;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 3px"/>
                     </g>
                     <g id="C" style="clip-path: url(#cami)" class="melissa-animate">
                         <polyline points="206.91 29.84 208.7 22.37 206.91 17.63 204.31 15.61 199.91 14.11 190.44 21.41 187.35 30.78 186.3 35.46 186.13 42.55 186.96 49.12 188.14 55.52 194.63 64.05 200.09 64.33 204.73 61.26 207.49 56.36 208.07 50.42 207.73 45.79" style="fill: none;stroke: lightblue;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 8px"/>
