@@ -24,8 +24,8 @@
 
 @section('content')
 
-<div style="height: 100vh">
-    <div class="w-100 font-jsff" style="font-style: normal!important;">
+<div style="height: 90vh">
+    <div class="w-100 font-jsff mt-3 mt-lg-0" style="font-style: normal!important;">
         <div class="content">
             <div class="title m-b-md">
                 <svg id="svg-title" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 305.11 88.72">
@@ -91,16 +91,18 @@
         </div>
     </div>
 
-        <div class="d-block d-lg-flex">
-            <div class="w-100 w-lg-50">
-                <div class="w-75 mx-auto">
-                <iframe style="height: 50vh" class="floating-card border-0 w-100 d-block" src="//www.youtube.com/embed/4EDH1CwviqE" allowfullscreen></iframe>
+    <div class="d-block d-lg-flex">
+        <div class="w-100 w-lg-50 mt-3 mt-lg-0">
+            <div class="w-75 mx-auto">
+                <iframe style="height: 50vh" class="floating-card border-0 w-100 d-block" src="//www.youtube.com/embed/8ExvRHZBaTY" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="w-100 w-lg-50">
+        <div class="w-100 w-lg-50 mt-3 mt-lg-0">
             <div class="w-75 mx-auto">
                 <h2 class="text-center">{{ __('general.Welcome') }}</h2>
-                <p class="text-justify">En este espacio te vamos a compartir sobre nuestros tips para los diferentes pilares de vida</p>
+                <p class="text-justify">¡Hola!</p>
+                <p>Gracias por estar aquí, queremos darte la bienvenida a Meli&Cami, un proyecto que llevábamos bastante tiempo aplazando y por fin decidimos empezar, en este espacio te contaremos nuestras experiencias de vida, cómo hemos logrado el equilibrio, aciertos, desaciertos y aprendizajes a través de los años en diferentes aspectos de nuestra vida.</p>
+                <p>Si quieres saber más de nosotros sigue leyendo… </p>
             </div>
         </div>
     </div>

@@ -4,12 +4,12 @@
 
 @section('head-content')
 
-    <meta property="og:url"                content="https://www.intraining.com.co/blog/{{$blog->slug}}" />
+    <meta property="og:url"                content="https://www.meliycami.com/blog/{{$blog->slug}}" />
     <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="{{$blog->titulo}}" />
-    <meta property="og:image"              content="https://www.intraining.com.co/images/blogs/{{$blog->portada}}" />
-    <meta property="og:image:alt" content="{{$blog->portada}}">
-    <meta property="fb:app_id" content="364663920399879">
+    <meta property="og:title"              content="{{$blog->title}}" />
+    <meta property="og:image"              content="https://www.meliycami.com/img/blogs/{{$blog->cover}}" />
+    <meta property="og:image:alt" content="{{$blog->cover}}">
+    <meta property="fb:app_id" content="952200495399242">
     <meta property="og:description"        content="{{$blog->description}}" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -22,14 +22,14 @@
     <div class="container-fluid">
         @csrf
 
-        <div data-editable data-name="main-content" class="m-auto mb-5 blog text-justify">
+        <div data-editable data-name="main-content" class="m-auto py-5 blog text-justify">
             {!! $blog->content !!}
         </div>
 
         <div style="width: max-content">
             <hr class="mb-4" style="border: solid 1px rgba(255,255,255,0.5); margin-top: 30vh!important;"/>
             <h2 class="d-inline-block mr-3 mb-0" style="vertical-align: middle">Compartir</h2>
-            <a href="http://www.facebook.com/sharer.php?u=https://intraining.com.co/blog/{{$blog->slug}}" target="_blank">
+            <a href="http://www.facebook.com/sharer.php?u=https://meliycami.com/blog/{{$blog->slug}}" target="_blank">
                 <img class="mr-3" src="{{asset('img/facebook.png')}}" width="50">
             </a>
         </div>

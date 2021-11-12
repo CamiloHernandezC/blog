@@ -15,7 +15,7 @@
                         </div>
                         <div class="m-auto w-100 w-lg-50" style="overflow: hidden; box-sizing: border-box; height: 100%;">
                             <article style="border-width: 0px; height: 100%;">
-                                <div style="height: 100%; color: black" class="py-5 d-flex flex-column flex-grow-1">
+                                <div style="height: 100%; color: black" class="py-5 px-4 px-lg-0 d-flex flex-column flex-grow-1">
                                     <div>
                                         <div>
                                             <div>
