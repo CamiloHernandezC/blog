@@ -4,7 +4,7 @@
     <div class="d-block d-lg-flex">
         <div style="min-height: 100vh" class="mt-5 w-100 w-lg-50">
 
-            <div style="image-rendering: pixelated; background: url('../img/cami.jpg') no-repeat center center; background-size: cover; background-position-x: 30%;" class="floating-card floating-img d-block circle profile-image ml-auto mr-auto position-relative" alt="profile image"></div>
+            <div style="image-rendering: pixelated; background: url('../img/meli.jpg') no-repeat center center; background-size: 200%; background-position-x: -80px; background-position-y: -38px " class="floating-card floating-img d-block circle profile-image ml-auto mr-auto position-relative" alt="profile image"></div>
             <div class="floating-card floating-img-body w-75 pb-4 px-4 mx-auto mb-4 br-20">
                 <h1 class="font-jsff m-auto" style="width: fit-content">Meli</h1>
                 <div class="mt-3 text-justify">
@@ -16,7 +16,7 @@
         </div>
         <div style="min-height: 100vh" class="mt-5 w-100 w-lg-50">
 
-            <div style="image-rendering: pixelated; background: url('../img/cami.jpg') no-repeat center center; background-size: cover; background-position-x: 30%;" class="floating-card floating-img d-block circle profile-image ml-auto mr-auto position-relative" alt="profile image"></div>
+            <div style="image-rendering: pixelated; background: url('../img/cami.jpg') no-repeat center center; background-size: cover;" class="floating-card floating-img d-block circle profile-image ml-auto mr-auto position-relative" alt="profile image"></div>
             <div class="floating-card floating-img-body w-75 pb-4 px-4 mx-auto mb-4 br-20">
                 <h1 class="font-jsff m-auto" style="width: fit-content">Cami</h1>
                 <div class="mt-3 text-justify">
