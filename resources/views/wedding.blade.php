@@ -56,6 +56,11 @@
         <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent" style="font-family: 'Times New Roman'; font-style: italic">
             <ul class="navbar-nav">
                 <li class="nav-item active">
+                    <a class="navbar-brand" href="/">Inicio</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
                     <a class="navbar-brand" href="#date">Fecha</a>
                 </li>
             </ul>
@@ -128,7 +133,7 @@
 <div class="full-height mx-3 my-4 pt-5 floating-card text-center" style="color: white; height: 100vh" id="date">
     @include('confirmAttendanceModal')
     <h1 class="font-ffabr medium-font" >Save The Date</h1>
-    <h1 class="font-fftb huge-font" >10-07-2021</h1>
+    <h1 class="font-fftb huge-font" >10-07-2022</h1>
     <div class="d-flex flex-column flex-md-row w-75 h-75 h-lg-25 m-auto justify-content-between font-fftb">
         <div class="count-down-container" style="background-color: #add8e6CC">
             <h1 id="count-down-days"></h1>
