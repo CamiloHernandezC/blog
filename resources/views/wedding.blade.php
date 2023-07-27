@@ -35,11 +35,13 @@
 
         // Initialize and add the map
         function initMap() {
-            const place = {lat: 11.092397530619149, lng: -74.21892511233487};
+            const place = {lat: 11.0910499, lng: -74.2185496};
             const map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 11,
                 center: place,
             });
+
+
             // The marker, positioned at place
             const marker = new google.maps.Marker({
                 position: place,
@@ -72,11 +74,6 @@
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="navbar-brand" href="#dressCode">Vestimenta</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="navbar-brand" href="#gifts">Regalos</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
@@ -117,7 +114,7 @@
         <p>2021</p>
     </div>
 </div>
-<div class="full-height d-flex mx-3 my-4 floating-card" id="section2">
+<div class="full-height d-lg-flex d-block mx-3 my-4 floating-card" id="section2">
     <div class="mx-auto color-white text-justify us" style="font-family: 'Times New Roman'; font-style: italic">
         <p>Meli:</p>
         <p>¡Nos casamos!</p>
@@ -133,7 +130,7 @@
 <div class="full-height mx-3 my-4 pt-5 floating-card text-center" style="color: white; height: 100vh" id="date">
     @include('confirmAttendanceModal')
     <h1 class="font-ffabr medium-font" >Save The Date</h1>
-    <h1 class="font-fftb huge-font" >10-07-2022</h1>
+    <h1 class="font-fftb huge-font" >21-07-2023</h1>
     <div class="d-flex flex-column flex-md-row w-75 h-75 h-lg-25 m-auto justify-content-between font-fftb">
         <div class="count-down-container" style="background-color: #add8e6CC">
             <h1 id="count-down-days"></h1>
@@ -225,49 +222,6 @@
             </div>
         </div>
     </div>
-</div>
-<div class="full-height mx-3 my-4 floating-card bg-boy pt-5" id="gifts">
-    <h1 class="text-center font-ffabr" style="color: white">Mesa de Regalos</h1>
-    @if(count($gifts)>0)
-        @include('assignGiftModal')
-        <div id="immediateDeliveryCarousel" class="carousel slide mt-3" data-ride="carousel">
-            <div id="innerImmediateDelivery" class="carousel-inner row mx-auto carousel-inner-cyclic"
-                 style="width: 75%">
-                @foreach($gifts  as $gift)
-                    <div class="carousel-item carousel-item-cyclic col-md-4 itemDivImmediateDelivery my-4">
-                        @if($gift->assigned)
-                            <div class="position-absolute h-100 rounded-20px"
-                                 style="width: 90%; background: grey; opacity: 0.5; z-index: 10">
-                            </div>
-                        @endif
-                        <div class="card floating-card pt-3">
-                            <img src="{{asset('img/products/'.$gift->image)}}" class="card-img-top" alt="...">
-                            <!--Always with the cell image because is taller than wide-->
-                            <div class="card-body text-center">
-                                <h4 class="card-text"><strong>{{$gift->name}}</strong></h4>
-                                <h4 class="card-text"><strong>{{$gift->description}}</strong></h4>
-                                <h6 style="color: black">REF: {{$gift->ref}}</h6>
-                                <button onclick="saveGiftId({{$gift->id}})" data-toggle="modal"
-                                        data-target="#assignGiftModal" style="color: white"
-                                        class="bg-girl rounded-20px p-1 border-0 w-100" type="button"><h4 class="m-0">
-                                        <small><strong>Me lo pido!</strong></small></h4></button>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-            <a class="carousel-control-prev-personalized carousel-control-cyclic immediateDeliveryControl"
-               href="#immediateDeliveryCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next-personalized carousel-control-cyclic immediateDeliveryControl"
-               href="#immediateDeliveryCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    @endif
 </div>
 <div class="full-height d-flex mx-3 my-4 floating-card position-relative" id="section3">
     <div class="opacity rounded-20px" style="background-color: rgba(248, 247, 216, 0.7);">
